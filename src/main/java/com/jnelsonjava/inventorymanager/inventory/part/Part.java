@@ -24,4 +24,9 @@ public class Part {
         this.name = name;
         this.description = description;
     }
+
+    public Part(Part copyPart) {
+        this.name = copyPart.name;
+        this.description = copyPart.description;
+    }
 }
